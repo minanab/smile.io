@@ -1,0 +1,129 @@
+#sectionCover {
+    position: relative;
+    top: 180px;
+    height: 300px;
+}
+
+.programCard {
+    text-decoration: none;
+    width: auto;
+    height: 275px;
+    margin: 15px;
+    padding: 25px;
+    float: left;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.programCardImg {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.programCard h5 {
+    margin-bottom: -20px;
+    margin-left: 15px;
+}
+
+.programCard:hover {
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#carouselIndicators {
+    margin-top: 100px;
+}
+
+.carousel-indicators li {
+    background-color: grey;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-bottom: -15px;
+}
+
+.testemonial-container {
+    margin: auto;
+    width: 800px;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+.content-container {
+    display: inline;
+    position: absolute;
+    width: 520px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.testemonial-img {
+    display: inline;
+    width: 243px;
+    height: 340px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 15%;
+}
+
+.carousel-control-prev {
+    margin-left: 10%;
+}
+
+.carousel-control-next {
+    margin-right: 10%;
+}
+
+#sliderIcon {
+    margin-top: 270px;
+    margin-left: 750px;
+    z-index: 100;
+    position: relative;
+}
+.container-fluid {
+    margin-top: 150px;
+    text-align: center;
+    background-color: #f7f9fd
+}
+.fab {
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    opacity: .7;
+    width: 40px;
+    height: 40px;
+    padding: 2.5px;
+    margin: 10px;
+}
+.fab:hover {
+    text-decoration: none;
+    color: gray;
+    background-color: #e0e2e5;
+    border-radius: 5px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+	transition: all 1s ease;
+ }
+.dropdown-header, .dropdown-item{
+    width: 250px;
+    padding: 5px;
+    margin: 5px 5px 5px 20px;
+}
+.dropdown-menu img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
